@@ -16,5 +16,21 @@ namespace CalculaPintura
            areaParedes = 2 * (largura + profundidade) * altura;
             return areaParedes;
         }
+
+        public double  CalcularAreaTeto(double largura, double profundidade)
+        {
+            areaTeto = largura * profundidade;
+            return areaTeto;
+        }
+        
+        public double CalcularLitragem()
+        {
+
+            return (areaParedes + areaTeto) / 10;
+        }
+
+
+
+
     }
 }
