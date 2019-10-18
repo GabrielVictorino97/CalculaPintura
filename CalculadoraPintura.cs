@@ -8,8 +8,8 @@ namespace CalculaPintura
 {
     class CalculadoraPintura
     {
-       public double areaParedes;
-       public double areaTeto;
+       private double areaParedes;
+       private double areaTeto;
 
         public double CalcularAreaParede(double largura,double profundidade,double altura)
         {
